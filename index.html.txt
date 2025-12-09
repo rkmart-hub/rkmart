@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RkMart - Demo Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    header {
+      background: #1e90ff;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .hero {
+      background: white;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .hero h2 {
+      margin: 0;
+      font-size: 28px;
+      color: #333;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    footer {
+      background: #1e90ff;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>RkMart</header>
+
+  <section class="hero">
+    <h2>Welcome to RkMart — Your Demo Store</h2>
+    <p>High quality products at the best prices!</p>
+  </section>
+
+  <section class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/250x150" alt="Product 1" />
+      <h3>Product 1</h3>
+      <p>Price: ₹499</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/250x150" alt="Product 2" />
+      <h3>Product 2</h3>
+      <p>Price: ₹799</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/250x150" alt="Product 3" />
+      <h3>Product 3</h3>
+      <p>Price: ₹999</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 RkMart — Demo Website
+  </footer>
+</body>
+</html>
